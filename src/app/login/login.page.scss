@@ -1,0 +1,81 @@
+@import "../../theme/variables.scss";
+
+
+.contentHeader{
+    position:relative; 
+    text-align: center;
+
+    .logoBhd{
+    width:144px;
+    height:55px;
+    margin-top:145px;
+    margin-right:5px;
+    }
+}
+.contentLogin{
+    .scroll-y{
+    overflow-y: hidden;
+    }
+    .inputText{position: relative;  padding-left: 40px;
+     margin-left: 15px;
+     margin-right: 20px;
+     border: 1px solid var(--bhd-color-text);
+     border-radius: 8px;
+     width: 90%;
+    }
+
+    .iconText{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    }
+
+    .m100{
+        margin-top: 100px;
+    }
+    .m20{
+        margin-top: 20px;
+    }
+
+    .contentSubmit{
+    margin-top:31px;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 20px;
+        .submit{
+        background: #49B742;
+        border: 1px solid #49B742;
+        border-radius: 5px; 
+        height: 44px;
+        background-color: var(--green-main);
+        color: var(--white);
+        }
+    }
+
+    .dateHelp{
+        height: 277px;
+        background-image:linear-gradient(to bottom, rgb(255, 255, 255), transparent),
+        url('../../assets/icon/background_login.png');
+        background-size: cover;
+    
+        .contentRedirect{
+            margin-top: 32px;
+            text-align: center;
+            
+            a{
+                color: var(--bhd-color-text-blue);
+                text-decoration: none;
+                font-weight: 700;
+
+            }
+        }
+    }
+
+
+
+
+
+}
